@@ -12,7 +12,7 @@ body {
     background-color: aliceblue;
 }
 
-nav {
+.top-nav {
     background-color: #dddddd;
     display: flex;
     align-items: center;
@@ -24,12 +24,12 @@ nav ul {
     overflow: hidden;
 }
 
-.nav-element {
+.top-nav-element {
     display: inline-block;
     padding: 4px 16px
 }
 
-.nav-element:hover {
+.top-nav-element:hover {
     background-color: #c9c7c7;
 }
 
