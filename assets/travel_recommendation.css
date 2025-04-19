@@ -1,5 +1,8 @@
 /* CSS for the travel recommendation web application */
+
+/* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Delius+Swash+Caps&display=swap');
 
 * {
     margin: 0;
@@ -19,6 +22,18 @@ nav {
 nav ul {
     list-style-type: none;
     overflow: hidden;
+}
+
+header {
+    padding: 10px 0;
+}
+
+.active-page {
+    background-color: #d6d4d4;
+}
+
+.nav-link {
+    text-decoration: none;
 }
 
 .top-nav {
@@ -63,22 +78,34 @@ nav ul {
     display: block;
 }
 
-.nav-link {
-    text-decoration: none;
+.search {
+    margin-right: 2px;
 }
 
-.delius-swash-caps {
-    font-family: 'Delius Swash Caps', cursive;
+.p-bottom-spacer {
+    margin-bottom: 10px;
 }
 
 .col-chocolate {
     color: chocolate;
 }
 
-.search {
-    margin-right: 2px;
+.col-para-red {
+    color: indianred;
 }
 
-.active-page {
-    background-color: #d6d4d4;
+.col-header-red {
+    color: rgb(177, 81, 81);
+}
+
+.col-footer-red {
+    color: rgb(224, 134, 134);
+}
+
+.delius-swash-caps {
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.delius {
+    font-family: 'Delius', cursive;
 }
