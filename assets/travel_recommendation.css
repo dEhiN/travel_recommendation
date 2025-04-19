@@ -25,7 +25,17 @@ nav ul {
 }
 
 header {
-    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #bbd0ff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .active-page {
@@ -51,6 +61,10 @@ header {
     background-color: #c9c7c7;
 }
 
+.body-content {
+    display: flex;
+}
+
 .side-nav {
     position: fixed;
     left: 0;
@@ -70,6 +84,12 @@ header {
 .side-nav-element {
     padding: 10px 0;
     margin: 2px 0;
+}
+
+.main-content {
+    margin-left: 60px;
+    padding: 20px;
+    width: 100%;
 }
 
 .social-icon {
