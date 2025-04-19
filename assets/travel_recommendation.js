@@ -1,7 +1,4 @@
 // Create variables for the elements
-const home = document.getElementById("home");
-const about = document.getElementById("about");
-const contact = document.getElementById("contact");
 const searchBtn = document.getElementById("searchBtn");
 const clearBtn = document.getElementById("clearBtn");
 
