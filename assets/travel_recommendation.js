@@ -28,7 +28,6 @@ function searchDestination() {
   // Check if the input is empty
   if (destination === "") {
     alert("Please enter a destination.");
-    return;
   }
 
   // Display a message with the destination
