@@ -12,6 +12,11 @@ body {
     background-color: aliceblue;
 }
 
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
 .top-nav {
     background-color: #dddddd;
     display: flex;
@@ -19,18 +24,55 @@ body {
     justify-content: space-between;
 }
 
-nav ul {
-    list-style-type: none;
-    overflow: hidden;
-}
-
 .top-nav-element {
     display: inline-block;
-    padding: 4px 16px
+    padding: 4px 16px;
 }
 
 .top-nav-element:hover {
     background-color: #c9c7c7;
+}
+
+.side-nav {
+    position: fixed;
+    /* Keep it in view during scrolling */
+    left: 0;
+    /* Stick it to the left side */
+    top: 50%;
+    /* Position it in the middle vertically */
+    transform: translateY(-50%);
+    /* Correct vertical centering */
+    width: 50px;
+    /* Adjust the width as needed */
+    background-color: #f0f0f0;
+    /* Optional background color */
+    padding: 10px 0;
+    /* Add some padding */
+    border-radius: 0 10px 10px 0;
+    /* Optional rounded corners */
+}
+
+.side-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+}
+
+.side-nav-element {
+    margin-bottom: 5px;
+    /* Add spacing between icons */
+}
+
+.social-icon {
+    width: 30px;
+    /* Adjust icon size */
+    height: auto;
+    display: block;
+    /* Remove any extra spacing */
 }
 
 .nav-link {
