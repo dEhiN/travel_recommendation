@@ -5,21 +5,9 @@ const contact = document.getElementById("contact");
 const searchBtn = document.getElementById("searchBtn");
 const clearBtn = document.getElementById("clearBtn");
 
-// Add event listeners to the top navigation links to redirect them for now
-home.addEventListener("click", linkAlertUser);
-about.addEventListener("click", linkAlertUser);
-contact.addEventListener("click", linkAlertUser);
-
 // Add event listeners to the search button and clear button
 searchBtn.addEventListener("click", searchDestination);
 clearBtn.addEventListener("click", clearSearch);
-
-function linkAlertUser() {
-  // Alert the user that the link does not work yet
-  about.href = "travel_recommendation.html";
-  contact.href = "travel_recommendation.html";
-  alert("This link does not work yet. Please check back later.");
-}
 
 function searchDestination() {
   // Get the value from the search field
