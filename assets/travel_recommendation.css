@@ -78,3 +78,7 @@ nav ul {
 .search {
     margin-right: 2px;
 }
+
+.active-page {
+    background-color: #d6d4d4;
+}
