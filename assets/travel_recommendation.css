@@ -111,20 +111,17 @@ footer {
     margin-bottom: 10px;
 }
 
-.col-chocolate {
+.nav-link-color {
     color: chocolate;
 }
 
-.col-para-red {
-    color: indianred;
+.article-color {
+    color: indianred
 }
 
-.col-header-red {
-    color: rgb(177, 81, 81);
-}
-
-.col-footer-red {
-    color: rgb(224, 134, 134);
+.header-color,
+.footer-color {
+    color: rgb(212, 32, 56);
 }
 
 .delius-swash-caps {
